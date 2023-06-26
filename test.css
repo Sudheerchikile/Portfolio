@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    background-color:rgb(211, 203, 203);
+    width:430px;
+     height:100vh
+}
+.sidebar nav{
+    padding:45px
+}
+
+.sidebar nav li{
+    list-style-type:none;
+    font-size:20px;
+    padding: 15px 0;
+}
+.sidebar nav li a{
+    text-decoration:none;
+    color:black;
+}
+.main{
+    /*background-color: yellow;*/
+    font-family:"Fira Sans",sans-serif;
+    width:85vw
+    
+}
+
+.con2{
+    display:flex;
+    
+
+}
+
+.infoContainer{
+   background-color:rgb(155, 17, 82);
+    height: 60vh; 
+    margin:140px auto;
+    display:flex;
+    justify-content:space-around;
+    padding-left:18px;
+    width:80vw;
+}
+.dev-pic img{
+    height:60vh
+}
+.dev-info{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    font-family:'Source code pro', monospace;
+}
+.buttons{
+    margin-top:15px;
+
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius:12px;
+    color:white;
+    background-color:dodgerblue;
+    font-weight:bold
+    border-style:solid;
+    border-width:0px;
+    margin:0 3px;
+    cursor:pointer;
+
+}
+.button{
+    padding: 9px 14px;
+    border-radius:12px;
+    color:white;
+    background-color:dodgerblue;
+    font-weight:bold
+    border-style:solid;
+    border-width:0px;
+    
+    cursor:pointer;
+
+}
+.button:hover{
+    background-color:green;
+    color:white;
+}
+.buttons button:hover{
+    background-color:white;
+    color:dodgerblue;
+
+
+}
+
+.hello{
+   font-size:50px; 
+
+
+}
+.moreabout{
+    font-size:24px;
+    margin-top:15px;
+    font-family:"Fira Sans",sans-serif;
+}
+
+.about{
+    font-size:40px;
+}
+
+.name{
+    font-size:45px;
+    font-weight:bold;
+    font-family:"Fira Sans",sans-serif;
+
+}
+
+#form-group{
+    display:flex;
+    flex-direction:column;
+}
+.contact-form {
+    font-family:"Fira Sans",sans-serif;
+
+    padding:0 34px;
+    padding-top:135px;
+
+}
+.contact-form h1{
+    font-family:'Source code pro', monospace;
+    
+    
+}
+
+.contact-form form div{
+    padding:10px 0;
+    display:flex;
+    flex-direction:column;
+}
+.contact-form form div input{
+    width:18vw;
+    padding:4px;
+    margin-top:5px;
+    border-radius:6px;
+    font-size:18px;
+
+}
+#form-check{
+    display:flex;
+    flex-direction:row;
+}
+
+#form-check input{
+    width:12px;
+    margin-right:3px;
+    margin-top:-1px;
+}
+.trust{
+    margin-top:12px;
+    color:brown;
+    font-family:"roboto";
+    font-size:14px;
+}
+
+.blogitem{
+    margin:20px;
+    
+}
+
+.blogcontainer h1{
+    font-family:"Fira Sans",sans-serif;
+    margin:20px;
+
+}
+.blogitem P{
+    font-family:'Source code pro', monospace;
+    font-weight:100;
+    color:grey;
+
+}
+.intro h2{
+    font-family:"Fira Sans",sans-serif;
+    margin: 12px 
+
+}
+.intro p{
+    font-family:'Source code pro', monospace;
+    margin:12px;
+}
+.skillContainer{
+    height:15px;
+    background-color:white;
+    border:2px solid black;
+    width:265PX;
+
+
+}
+
+.skill{
+    height:15px;
+    
+   
+}
+
+.hu{
+    width:265px;
+    background-color:green;
+
+}
+
+.sf{
+    width:220px;
+    background-color:blue;
+
+}
+.fi{
+    width:170px;
+    background-color:blue;
+
+}
+.th{
+    width: 80px;px;
+    background-color:yellow;
+}
